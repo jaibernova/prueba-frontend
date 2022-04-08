@@ -16,7 +16,7 @@ const ModalCreateProducts = () => {
   const [precio, setPrecio] = useState(0);
   const [status, setStatus] = useState("");
 
-  const URL = "https://pruebatareas.herokuapp.com//api/productos";
+  const URL = "https://pruebatareas.herokuapp.com/api/productos";
   const addProduct = async (e) => {
     e.preventDefault();
     console.log("Producto guardado");

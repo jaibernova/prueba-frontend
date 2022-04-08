@@ -84,7 +84,7 @@ const Register = () => {
             onChange={(e) => setName(e.target.value)}
             id="name-text"
           />
-          <label htmlFor="">Apellidos</label>
+          <label htmlFor="">URL IMAGEN</label>
           <input
             type="text"
             required

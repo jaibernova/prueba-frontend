@@ -38,13 +38,14 @@ const Login = () => {
       })
       .catch((error) => {
         console.log(error);
+        InicioFallido()
       });
   };
   const InicioSesion = () => {
     Swal.fire("Exitoso", `Se ha iniciado sesion exitosamente!`, "success");
   };
   const InicioFallido = () => {
-    Swal.fire("Error!", "Hubo un problema al iniciar sesion!", "error");
+    Swal.fire("Error!", "Usuario o contraseña incorrecta!", "error");
   };
 
   return (
